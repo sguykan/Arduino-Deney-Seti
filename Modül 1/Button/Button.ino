@@ -11,8 +11,9 @@ void setup()
 {
  pinMode(bt1,INPUT);
  pinMode(bt2,INPUT);
- pinMode(bt3,INPUT_PULLUP);
- pinMode(bt4,INPUT_PULLUP);
+ pinMode(bt3,INPUT);
+ pinMode(bt4,INPUT);
+ 
  pinMode(ld1,OUTPUT);
  pinMode(ld2,OUTPUT);
  pinMode(ld3,OUTPUT);
