@@ -1,4 +1,4 @@
-// Seri Port Ekranından veya Arduino Blurtooth programları ile deneyebilirsiniz. "Arduino bluetooth controller"
+// Seri Port Ekranından veya Arduino Bluetooth programları ile deneyebilirsiniz. "Arduino bluetooth controller"
 // HC06 modülünü takmadan önce mutlaka pin kontrolü yapınız
   
 #define led1 11
