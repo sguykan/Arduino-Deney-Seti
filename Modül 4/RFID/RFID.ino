@@ -53,14 +53,14 @@ void loop()
 
     if (izin == true)
     {
-      Serial.println("izin Verildi");
+      Serial.println("Doğru RFID");
       digitalWrite(Y_ld, 1);
       delay(1000);
       digitalWrite(Y_ld, 0);
     }
     else
     {
-      Serial.println("izinsiz Giris");
+      Serial.println("Yanlış RFID");
       digitalWrite(K_ld, 1);
       delay(1000);
       digitalWrite(K_ld, 0);
